@@ -1,0 +1,4 @@
+<?php
+header("Content-type: text/plain; charset=UTF-8");
+echo shell_exec("dig +short pothirak.thddns.net");
+?>
