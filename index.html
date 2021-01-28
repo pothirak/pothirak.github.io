@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Pothirak / Folio</title>
+      <link rel="shortcut icon" href="favicons\logo.png">
+      <meta name="theme-color" content="#ffffff">
+      <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+      <link rel="stylesheet" href="assets\main.css">
+      <link rel="stylesheet" href="assets\scrollbar.css">
+      <script src="assets\jquery.min.js"></script>
+      <script src="assets\scripts.js"></script>
+      <script src="assets\jquery.widowFix.min.js"></script>
+      </style>
+   </head>
+   <body>
+      <!--Main navigation-->
+      <header>
+         <span id="projectsInfoToggle">
+         <span id="projectsButton"><a href="#">Projects</a></span>
+         /
+         <span id="infoButton"><a href="#/info">Info</a></span>
+         </span>
+         <div id="backToProjects" class="invisible">
+            <div id="backButton">
+               <a href="#">
+                  <div class="backToProjectsStatic">&larr;&nbsp;</div>
+                  <div class="backToProjectsLabel">Back to&nbsp;</div>
+                  <div class="backToProjectsStatic">Projects</div>
+               </a>
+            </div>
+         </div>
+      </header>
+      <!--Preloader-->
+      <div id="fadingContainer">
+         <!--Title container-->
+         <div id="titleContainer" class="invisible">
+            <p class="indexTitle">
+         </div>
+         <!--INFO-->
+         <div id="infoContainer" class="zoomIn">
+            <div class="postHero" style="background-image: url(content/1-info/v2.webp)">
+               <div id="infoIntroContainer">
+                  <div id="infoIntro">
+                     <p>Hello :)</p>
+                  </div>
+               </div>
+            </div>
+            <!--OPEN INFOCONTENT-->
+            <div id="infoContent">
+               <div class="postDiv">
+                  <div class="postSubhead">&nbsp;</div>
+                  <div class="infoText large">
+                     <p>I'm Ja Pothirak Ngamsiriroj, In my spare time, I enjoy watching movies and surfing the Internet. And I tend to spend a lot of time studying and experimenting with the automation of home IoT systems. With open source software such as Home Assistant and Node Red. This thing is easy and gives many things.</p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Profile</div>
+                  <div class="infoText">
+                     <p>I was born in Bangkok,Thailand on October 30, 1996. At a very young age, I is interested in computers.</p>
+                     <p>I started learning computers by opening a computer case to study computer hardware.</p>
+                     <p>My first computer Father bought it when I studied grade 6.</p>
+                     <p>When graduating from high school So I studied for a bachelor's degree in computer science and information technology.</p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Experience</div>
+                  <div class="infoText experience">
+                     <p><strong>Events</strong><br>
+                        The Modder 2017,<br>
+                        Vmodtech’s Asia Lanparty 2016
+                     </p>
+                     <p><strong>Work</strong><br>
+                        Supplier @ Yum Restaurants International (Thailand) Co. Ltd.
+                     </p>
+                     <p><strong>Position</strong><br>
+                        Student Committee @ Chinorotwittayalai School
+                     </p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Certifications</div>
+                  <div class="infoText experience">
+                     <p><strong>Microsoft Technology Associate</strong><br>
+                        Networking Fundamentals Understanding (MTA)<br>
+                     </p>
+                     <p><strong>Foundation we will be good people</strong><br>
+                        Help to organize activities for the 6th anniversary<br>
+                     </p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Education</div>
+                  <div class="infoText experience">
+                     <p>Rajamangala University of Technology Krungthep,<br>
+                        Chinorotwittayalai School,<br>
+                        Prathomthanbinkamphangsean School,<br>
+                        Daroonwit School
+                     </p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Links</div>
+                  <div class="infoText connectList">
+                     <ul>
+                        <li><strong>Connect</strong></li>
+                        <li><a href="mailto:ja.pothirak@hotmail.com" title="Connect via E-mail">E-mail</a></li>
+                        <li><a href="http://instagram.com/j.pothirak">Instagram</a></li>
+                        <li><a href="https://line.me/ti/p/qcJTJsFS15">Line</a></li>
+                     </ul>
+                     <ul>
+                        <li><strong>Extras</strong></li>
+                        <li><a href="https://github.com/pothirak">Github</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="postDiv last">
+                  <div class="postSubhead">&nbsp;</div>
+                  <div class="infoText">
+                     <p>
+                        © 2019-<script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> All rights reserved.
+                     </p>
+                  </div>
+               </div>
+               <div class="postNextProject">
+                  Thanks for visiting! :)
+               </div>
+            </div>
+         </div>
+         <!--WORK-->
+         <div id="workContainer" class="zoomOut"></div>
+         <!--PROJECT INDEX-->
+         <div id="planeOverflow">
+            <div id="planeDepth">
+               <div id="planeRotate">
+                  <div id="planeZ">
+                     <div class="tile" data-url="../projects/RMUTK" data-title="RMUTK" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/rmutk.webp)">
+                        <!--<a href="#/RMUTK" class="ajax">-->
+                        <img src="content\2-projects\images\rmutk.webp" alt="RMUTK">
+                        <!--</a>-->
+                     </div>
+                     <div class="tile" data-url="/projects/cert" data-title="Microsoft Networking Fundamentals" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/cert.webp)">
+                        <img src="content\2-projects\images\cert.webp" alt="Microsoft Networking Fundamentals">
+                     </div>
+                     <div class="tile" data-url="/projects/The_Modder" data-title="The Modder" data-date="" data-headercolor="false" style="background-image: url(content/2-projects/images/the_modder1.webp)">
+                        <img src="content\2-projects\images\the_modder1.webp" alt="The Modder">
+                     </div>
+                     <div class="tile" data-url="/projects/The_Modder" data-title="The Modder" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/the_modder2.webp)">
+                        <img src="content\2-projects\images\the_modder2.webp" alt="The Modder">
+                     </div>
+                     <div class="tile" data-url="/projects/The_Modder" data-title="The Modder" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/the_modder.webp)">
+                        <img src="content\2-projects\images\the_modder.webp" alt="The Modder">
+                     </div>
+                     <div class="tile" data-url="/projects/VMOD" data-title="Vmodtech’s Asia Lanparty 2016" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/vmod.webp)">
+                        <img src="content\2-projects\images\vmod.webp" alt="Vmodtech’s Asia Lanparty 2016">
+                     </div>
+                     <div class="tile" data-url="/projects/VMOD" data-title="Vmodtech’s Asia Lanparty 2016" data-date="" data-headercolor="false" style="background-image: url(content/2-projects/images/vmod1.webp)">
+                        <img src="content\2-projects\images\vmod1.webp" alt="Vmodtech’s Asia Lanparty 2016">
+                     </div>
+                     <div class="tile" data-url="/projects/student_committee" data-title="Student Committee" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/student_committee.webp)">
+                        <img src="content\2-projects\images\student_committee.webp" alt="Student Committee">
+                     </div>
+                     <div class="tile" data-url="/projects/Brooch_design_by_me" data-title="Brooch design by me" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/student_committee1.webp)">
+                        <img src="content\2-projects\images\student_committee1.webp" alt="Brooch design by me">
+                     </div>
+                     <div class="tile" data-url="/projects/we_will_be_good_people" data-title="We will be good people" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/we_will_be_good_people.webp)">
+                        <img src="content\2-projects\images\we_will_be_good_people.webp" alt="We will be good people">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--close fadingContainer-->
+      </div>
+      <footer></footer>
+      <div id="a0a0a0"></div>
+   </body>
+</html>
