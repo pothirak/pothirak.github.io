@@ -3,7 +3,7 @@
 
   styles = `/* 
  * "JA&RICK" v7.0
- * Authored by github.com#pothirak
+ * Cookie (meaw meaw)
  */
 
 body {
@@ -17,18 +17,22 @@ body {
  *
  * ...hello?            
  *
- * Oh hai! It's me, JA.         
+ * I remember         
  *
- * I'm just sitting here coding away.            
+ * When you watch a movie,           
  *
- * Sure, you can watch.                       
+ * you tend to say                       
  *
+ * that the hacker's screen is cool
+ * 
+ * So i do this       
  *
- * This CSS is being injected into a DOM <style> element 
- * and written in this <pre> element simultaneously.        
- *
- * Confused? Watch!
- *
+ * And give it to you
+ * 
+ * Hope you like it
+ * 
+ * 
+ * ^^
  */
 
 pre { 
@@ -244,6 +248,7 @@ pre em:not(.comment) { font-style: normal; }
  *
  * ======== JA & RICK =========
  * version 7.0  
+ * 
  */`;
 
   openComment = false;
