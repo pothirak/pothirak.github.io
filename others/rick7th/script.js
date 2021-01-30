@@ -2,7 +2,7 @@
   var openComment, styles, time, writeStyleChar, writeStyles;
 
   styles = `/* 
- * "Rick&Ja" v7.0
+ * "JA&RICK" v7.0
  * Authored by github.com#pothirak
  */
 
@@ -246,7 +246,7 @@ pre em:not(.comment) { font-style: normal; }
  * 
  * <3
  *
- * ======== RICK & JA =========
+ * ======== JA & RICK =========
  * version 7.0  
  */`;
 
