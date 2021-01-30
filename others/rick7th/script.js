@@ -65,11 +65,6 @@ pre em:not(.comment) { font-style: normal; }
  */ 
 
 
-/* 
-
-*/
-
-
 /* Now we can build my heart */
 
 #heart, #echo { 
