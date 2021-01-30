@@ -236,7 +236,7 @@ pre em:not(.comment) { font-style: normal; }
  * I mean I did it, but you know, whatever...
  * I want to coding to say...
  * I love you 
- * I do this for you and cookie >*.*<
+ * I do this for you and Cookie >*.*<
  * Do you like it?
  * Happy 7th Anniversary......<3              
  * 
