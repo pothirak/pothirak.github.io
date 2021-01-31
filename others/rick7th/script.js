@@ -36,10 +36,11 @@ body {
  */
 
 pre { 
+  overflow: auto;
   padding: 24px 12px;
   position: fixed; width: 100%;
   top: 50%; bottom: -20px;
-  transition: left 5ms;
+  transition: left 500ms;
   overflow: auto;
   background-color: #313744; color: #a6c3d4;
   border: 1px solid rgba(0,0,0,0.2);
