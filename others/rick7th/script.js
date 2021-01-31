@@ -290,17 +290,15 @@ pre em:not(.comment) { font-style: normal; }
   };
 
   
-  // appending the tags I'll need.
   $('body').append(`  <style id="style-tag"></style>
 <span id="echo"></span>
 <span id="heart"><i></i></span>
 <pre id="style-text"></pre>`);
 
-  // faster typing in small iframe on codepen homepage
-  time = window.innerWidth <= 578 ? 4 : 16;
+
+  time = window.innerWidth <= 578 ? 16 : 16;
 
   
-  // starting it off
   writeStyles(styles, 0, time);
 
 
