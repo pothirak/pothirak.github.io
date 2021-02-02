@@ -65,7 +65,7 @@ pre em:not(.comment) { font-style: normal; }
 
 
 /* 
- * Let's build my little pen heart.
+ * Let's build my heart.
  */ 
 
 
