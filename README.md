@@ -1,3 +1,3 @@
 # pothirak.github.io
 
-[My Port](https://pothirak.github.io){:target="_blank" rel="noopener"}
+<a href="https://pothirak.github.io/" target="_blank">My Port!</a>
