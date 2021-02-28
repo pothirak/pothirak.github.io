@@ -241,7 +241,7 @@ pre em:not(.comment) { font-style: normal; }
  * I want to coding to say...
  * I love you 
  * But...
- * I love cookie more than I love you :P >*.*<
+ * I love cookie more than I love you >*.*<
  * You know 555555
  * Happy 7th Anniversary......<3              
  * 
