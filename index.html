@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Pothirak / Folio" />
+      <meta property="og:description" content="hello :)" />
+      <meta property="og:url" content="https://pothirak.github.io/" />
+      <meta property="og:site_name" content="Pothirak / Folio" />
+      <meta property="og:image" content="https://pothirak.github.io/content/1-info/v2_og.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Pothirak / Folio</title>
+      <link rel="shortcut icon" href="favicons\logo.png">
+      <meta name="theme-color" content="#ffffff">
+      <link rel="stylesheet" href="assets\main.css">
+      <link rel="stylesheet" href="assets\scrollbar.css">
+      <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+      <script src="assets\scripts.js"></script>
+      <script src="assets\jquery.widowFix.min.js"></script>
+   </head>
+   <body>
+      <!--Main navigation-->
+      <header>
+         <span id="projectsInfoToggle">
+         <span id="projectsButton"><a href="#">Gallery</a></span>
+         /
+         <span id="infoButton"><a href="#/info">Info</a></span>
+         </span>
+         <div id="backToProjects" class="invisible">
+            <div id="backButton">
+               <a href="#">
+                  <div class="backToProjectsStatic">&larr;&nbsp;</div>
+                  <div class="backToProjectsLabel">Back to&nbsp;</div>
+                  <div class="backToProjectsStatic">Projects</div>
+               </a>
+            </div>
+         </div>
+      </header>
+      <!--Preloader-->
+      <div id="fadingContainer">
+         <!--Title container-->
+         <div id="titleContainer" class="invisible">
+            <p class="indexTitle">
+         </div>
+         <!--INFO-->
+         <div id="infoContainer" class="zoomIn">
+            <div class="postHero" style="background-image: url(content/1-info/v2.webp)">
+               <div id="infoIntroContainer">
+                  <div id="infoIntro">
+                     <p>Hello :)</p>
+                  </div>
+               </div>
+            </div>
+            <!--OPEN INFOCONTENT-->
+            <div id="infoContent">
+               <div class="postDiv">
+                  <div class="postSubhead">Hello</div>
+                  <div class="infoText">
+                     <!--<div class="infoText large">-->
+                     <p>I'm Ja Pothirak Ngamsiriroj, In my spare time, I enjoy watching movies and surfing the Internet. And I tend to spend a lot of time studying and experimenting with the automation of home IoT systems. With open source software such as Home Assistant and Node Red.</p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Profile</div>
+                  <div class="infoText">
+                     <p>I was born in Bangkok,Thailand on 1996. At a very young age, I is interested in computers.</p>
+                     <p>Currently I'm interested in <span class="txt-rotate" data-period="700" data-rotate='[ "cats.", "network.", "IoT.", "home automation.", "indoor plants.", "camping" ]'></span></p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Experience</div>
+                  <div class="infoText experience">
+                     <p><strong>Work</strong><br>
+                        2021-Now : Network Administrator @ Yip In Tsoi Co., LTD.,<br>
+                        2015-2016 : Supplier @ Yum Restaurants International (Thailand) Co., Ltd.
+                     </p>
+                     <p><strong>Guest speaker</strong><br>
+                        2021 : Network Management @ Rajamangala University of Technology Krungthep
+                     </p>
+                     <p><strong>Intern</strong><br>
+                        2019 : IT @ Mahajak Development Co., Ltd.
+                     </p>
+                     <p><strong>Events</strong><br>
+                        2016 : Vmodtech’s Asia Lanparty 2016
+                     </p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Certifications</div>
+                  <div class="infoText experience">
+                     <p><strong>Trend Micro</strong><br>
+                        Apex One Certified Professional,<br>
+                        Trend Campus Advanced - Hybrid Cloud Security
+                     </p>
+                     <p><strong>Microsoft</strong><br>
+                        Networking Fundamentals Understanding (MTA),<br>
+                        Microsoft Word (Word Processing Program for Documents),<br>
+                        Microsoft Excel (Calculation Program),<br>
+                        HOUR OF CODE
+                     </p>
+                     <p><strong>Google</strong><br>
+                        Crash Course on Python,<br>
+                        Introduction to Git and GitHub,<br>
+                        Fundamentals of digital marketing,<br>
+                        Google Cloud Platform Big Data and Machine Learning Fundamentals
+                     </p>
+                     <p><strong>IBM</strong><br>
+                        What is Data Science?
+                     </p>
+                     <p><strong>University of Colorado</strong><br>
+                        Fundamentals of Network Communication,<br>
+                        Enterprise System Management and Security
+                     </p>
+                     <p><strong>Foundation we will be good people</strong><br>
+                        Help to organize activities for the 6th anniversary
+                     </p>
+                     <p><strong>Others</strong><br>
+                        Introduction to Computer Science,<br>
+                        Essential SQL for Everyone
+                        
+                     </p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Education</div>
+                  <div class="infoText">
+                     <p>Computer Science and Information Technology @ Rajamangala University of Technology Krungthep,<br>
+                        Chinorotwittayalai School
+                     </p>
+                  </div>
+               </div>
+               <div class="postDiv">
+                  <div class="postSubhead">Links</div>
+                  <div class="infoText connectList">
+                     <ul>
+                        <li><strong>Connect</strong></li>
+                        <li><a href="mailto:ja.pothirak@hotmail.com" title="Connect via E-mail" target="_blank">E-mail</a></li>
+                        <li><a href="https://discordapp.com/users/372771430699368448" target="_blank">Discord</a></li>
+                     </ul>
+                     <ul>
+                        <li><strong>Extras</strong></li>
+                        <li><a href="https://github.com/pothirak" target="_blank">Github</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="postDiv last">
+                  <div class="postSubhead">&nbsp;</div>
+                  <div class="infoText">
+                     <p>
+                        © 2019-<script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> All rights reserved.
+                     </p>
+                  </div>
+               </div>
+               <div class="postNextProject">
+                  Thanks for visiting! :)
+               </div>
+            </div>
+         </div>
+         <!--WORK-->
+         <div id="workContainer" class="zoomOut"></div>
+         <!--PROJECT INDEX-->
+         <div id="planeOverflow">
+            <div id="planeDepth">
+               <div id="planeRotate">
+                  <div id="planeZ">
+                     <div class="tile" data-url="projects/cert" data-title="Apex One Certified Professional" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/Certified\ Professional\ Certificate\ -\ Apex\ One.webp)">
+                        <img src="content/2-projects/images/Certified Professional Certificate - Apex One.webp" alt="Apex One Certified Professional">
+                     </div>
+                     <div class="tile" data-url="projects/cert" data-title="Trend Campus Advanced - Hybrid Cloud Security" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/Trendmicro-1.webp)">
+                        <img src="content/2-projects/images/Trendmicro-1.webp" alt="Trend Campus Advanced - Hybrid Cloud Security">
+                     </div>
+                     <div class="tile" data-url="projects/cert" data-title="Microsoft Excel (Calculation Program)" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/MICROSOFT_MICROSOFT003.jpg)">
+                        <img src="content/2-projects/images/MICROSOFT_MICROSOFT003.jpg" alt="Microsoft Excel (Calculation Program)">
+                     </div>
+                     <div class="tile" data-url="projects/cert" data-title="Microsoft Word (Word Processing Program for Documents)" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/MICROSOFT_MICROSOFT002.jpg)">
+                        <img src="content/2-projects/images/MICROSOFT_MICROSOFT002.jpg" alt="Microsoft Word (Word Processing Program for Documents)">
+                     </div>
+                     <div class="tile" data-url="projects/cert" data-title="Microsoft Networking Fundamentals" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/cert.webp)">
+                        <img src="content/2-projects/images/cert.webp" alt="Microsoft Networking Fundamentals">
+                     </div>
+                     <div class="tile" data-url="projects/Google_Cloud_Platform_Big_Data_and_Machine_Learning_Fundamentals" data-title="Google Cloud Platform Big Data and Machine Learning Fundamentals" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/Google_Cloud_Platform_Big_Data_and_Machine_Learning_Fundamentals.webp)">
+                        <img src="content/2-projects/images/Google_Cloud_Platform_Big_Data_and_Machine_Learning_Fundamentals.webp" alt="Google Cloud Platform Big Data and Machine Learning Fundamentals">
+                     </div>
+                     <div class="tile" data-url="projects/Introduction_to_Git_and_GitHub" data-title="Introduction to Git and GitHub" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/Introduction_to_Git_and_GitHub.webp)">
+                        <img src="content/2-projects/images/Introduction_to_Git_and_GitHub.webp" alt="Introduction to Git and GitHub">
+                     </div>
+                     <div class="tile" data-url="projects/Crash_Course_on_Python" data-title="Crash Course on Python" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/Crash_Course_on_Python.webp)">
+                        <img src="content/2-projects/images/Crash_Course_on_Python.webp" alt="Crash Course on Python">
+                     </div>
+                     <div class="tile" data-url="projects/Fundamentals_of_digital_marketing" data-title="Fundamentals of digital marketing" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/Fundamentals_of_digital_marketing.webp)">
+                        <img src="content/2-projects/images/Fundamentals_of_digital_marketing.webp" alt="Fundamentals of digital marketing">
+                     </div>
+                     <div class="tile" data-url="projects/What_is_Data_Science" data-title="What is Data Science?" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/What_is_Data_Science.webp)">
+                        <img src="content/2-projects/images/What_is_Data_Science.webp" alt="What is Data Science?">
+                     </div>
+                     <div class="tile" data-url="projects/Enterprise_System_Management_and_Security" data-title="Enterprise System Management and Security" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/Enterprise System Management and Security.webp)">
+                        <img src="content/2-projects/images/Enterprise System Management and Security.webp" alt="Enterprise System Management and Security">
+                     </div>
+                     <div class="tile" data-url="projects/Fundamentals_of_Network_Communication" data-title="Fundamentals of Network Communication" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/Fundamentals of Network Communication.webp)">
+                        <img src="content/2-projects/images/Fundamentals of Network Communication.webp" alt="Fundamentals of Network Communication">
+                     </div>
+                     <div class="tile" data-url="projects/EssentialSQLforEveryone" data-title="Essential SQL for Everyone" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/EssentialSQLforEveryone.webp)">
+                        <img src="content/2-projects/images/EssentialSQLforEveryone.webp" alt="Essential SQL for Everyone">
+                     </div>
+                     <div class="tile" data-url="projects/IntroductiontoComputerScience" data-title="Introduction to Computer Science" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/IntroductiontoComputerScience.webp)">
+                        <img src="content/2-projects/images/IntroductiontoComputerScience.webp" alt="Introduction to Computer Science">
+                     </div>
+                     <div class="tile" data-url="projects/hourofcode" data-title="HOUR OF CODE" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/hourofcode.webp)">
+                        <img src="content/2-projects/images/hourofcode.webp" alt="HOUR OF CODE">
+                     </div>
+                     <div class="tile" data-url="projects/The_Modder" data-title="The Modder" data-date="" data-headercolor="false" style="background-image: url(content/2-projects/images/the_modder1.webp)">
+                        <img src="content/2-projects/images/the_modder1.webp" alt="The Modder">
+                     </div>
+                     <div class="tile" data-url="projects/The_Modder" data-title="The Modder" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/the_modder2.webp)">
+                        <img src="content/2-projects/images/the_modder2.webp" alt="The Modder">
+                     </div>
+                     <div class="tile" data-url="projects/VMOD" data-title="Vmodtech’s Asia Lanparty 2016" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/vmod.webp)">
+                        <img src="content/2-projects/images/vmod.webp" alt="Vmodtech’s Asia Lanparty 2016">
+                     </div>
+                     <div class="tile" data-url="projects/VMOD" data-title="Vmodtech’s Asia Lanparty 2016" data-date="" data-headercolor="false" style="background-image: url(content/2-projects/images/vmod1.webp)">
+                        <img src="content/2-projects/images/vmod1.webp" alt="Vmodtech’s Asia Lanparty 2016">
+                     </div>
+                     <div class="tile" data-url="projects/student_committee" data-title="Student Committee" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/student_committee.webp)">
+                        <img src="content/2-projects/images/student_committee.webp" alt="Student Committee">
+                     </div>
+                     <div class="tile" data-url="projects/Brooch_design_by_me" data-title="Brooch design by me" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/student_committee1.webp)">
+                        <img src="content/2-projects/images/student_committee1.webp" alt="Brooch design by me">
+                     </div>
+                     <div class="tile" data-url="projects/we_will_be_good_people" data-title="We will be good people" data-date="" data-headercolor="true" style="background-image: url(content/2-projects/images/we_will_be_good_people.webp)">
+                        <img src="content/2-projects/images/we_will_be_good_people.webp" alt="We will be good people">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--close fadingContainer-->
+      </div>
+      <footer></footer>
+      <div id="a0a0a0"></div>
+      <script src="assets\typing.js"></script>
+   </body>
+</html>
